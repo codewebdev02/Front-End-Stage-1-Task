@@ -27,29 +27,29 @@
  background-color: rgb(235, 235, 235); 
  } 
 
-.App .profileDetail { 
+.App .profileDetails { 
  display: flex; 
  align-items: center; 
  flex-direction: column; 
  } 
 
-.App .profileDetail .profileImg { 
+.App .profileDetails .profileImg { 
  margin-bottom: 16px; 
  } 
 
-.App .profileDetail #profile__img { 
+.App .profileDetails #profile__img { 
  border-radius: 50%; 
  width: 96px; 
  height: 96px; 
  } 
 
-.App .profileDetail #twitter,
-.App .profileDetail #slack { 
+.App .profileDetails #twitter,
+.App .profileDetails #slack { 
  margin: 0px; 
  font-weight: 700; 
  font-size: 20px; 
  } 
-.App .profileDetail #slack { 
+.App .profileDetails #slack { 
  visibility: hidden; 
  } 
 .App .link_section { 
