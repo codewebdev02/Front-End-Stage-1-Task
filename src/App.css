@@ -52,17 +52,17 @@
 .App .profileDetails #slack { 
  visibility: hidden; 
  } 
-.App .link_section { 
+.App .link-section { 
  max-width: 680px; 
  margin: auto; 
  /* margin-top: 32px;  */
  } 
 
-.App .link_section #btn__zuri,
-.App .link_section #books,
-.App .link_section #book__python,
-.App .link_section #pitch,
-.App .link_section #book__design { 
+.App .link-section #btn__zuri,
+.App .link-section #books,
+.App .link-section #book__python,
+.App .link-section #pitch,
+.App .link-section #book__design { 
  padding-left: 44px; 
  padding-right: 44px; 
  min-height: 56px; 
