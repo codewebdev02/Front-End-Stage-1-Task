@@ -11,7 +11,7 @@ function App() {
       </div>
       <div className="profileDetails">
         <div className="profileImg">
-          <img id="profile__img" src="https://d1fdloi71mui9q.cloudfront.net/wrHdK1pfQGys8605zDrM_v2jhjgLLe2EYZv37" alt="" />
+          <img id="profile__img" src="https://ca.slack-edge.com/T042F7V19Q8-U048FNHNQB0-8efb94b0e78c-512" alt="" />
         </div>
         <h1 id="twitter">@eaxysunshine_te</h1>
         <h1 id="slack">@Eaxysunshine</h1>
@@ -23,6 +23,14 @@ function App() {
         <a id="pitch" href="https://background.zuri.team/">Background Check for Coders </a>
         <a id="book__design" href="https://books.zuri.team/design-rules">Design Books </a>
       </div>
+      <div className="ltLogo">
+        <img src="https://iili.io/bxiONe.png" alt="" />
+      </div>
+      <footer>
+        <img src="https://iili.io/bxixta.png" alt="" />
+        <span>HNG Internship 9 Frontend Task </span>
+        <img src="https://training.zuri.team/logo.svg" alt="" />
+      </footer>
     </div>
   );
 }

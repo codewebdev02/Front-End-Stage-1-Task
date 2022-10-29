@@ -1,80 +1,113 @@
-.App.container { 
- max-width: 788px; 
- margin: auto; 
- } 
+.App.container {
+  max-width: 788px;
+  margin: auto;
+}
 
-.App .header { 
- display: flex; 
- align-items: center; 
- justify-content: flex-end; 
- padding: 12px; 
- } 
+.App .header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 12px;
+}
 
-.App .header button { 
- width: 40px; 
- height: 40px; 
- display: flex; 
- align-items: center; 
- justify-content: center; 
- border-radius: 50%; 
- border: 1px solid rgb(226, 226, 226); 
- background-color: rgb(240, 240, 240); 
- color: rgb(0, 0, 0); 
- cursor: pointer; 
- } 
+.App .header button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgb(226, 226, 226);
+  background-color: rgb(240, 240, 240);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
 
-.App .header button:hover { 
- background-color: rgb(235, 235, 235); 
- } 
+.App .header button:hover {
+  background-color: rgb(235, 235, 235);
+}
 
-.App .profileDetails { 
- display: flex; 
- align-items: center; 
- flex-direction: column; 
- } 
+.App .profileDetails {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
-.App .profileDetails .profileImg { 
- margin-bottom: 16px; 
- } 
+.App .profileDetails .profileImg {
+  margin-bottom: 16px;
+}
 
-.App .profileDetails #profile__img { 
- border-radius: 50%; 
- width: 96px; 
- height: 96px; 
- } 
+.App .profileDetails #profile__img {
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+}
 
 .App .profileDetails #twitter,
-.App .profileDetails #slack { 
- margin: 0px; 
- font-weight: 700; 
- font-size: 20px; 
- } 
-.App .profileDetails #slack { 
- visibility: hidden; 
- } 
-.App .link-section { 
- max-width: 680px; 
- margin: auto; 
- /* margin-top: 32px;  */
- } 
+.App .profileDetails #slack {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.App .profileDetails #slack {
+  visibility: hidden;
+}
+
+.App .link-section {
+  max-width: 680px;
+  margin: auto;
+  /* margin-top: 32px; */
+}
 
 .App .link-section #btn__zuri,
 .App .link-section #books,
 .App .link-section #book__python,
 .App .link-section #pitch,
-.App .link-section #book__design { 
- padding-left: 44px; 
- padding-right: 44px; 
- min-height: 56px; 
- display: block; 
- max-width: 100%; 
- display: flex; 
- align-items: center; 
- border-radius: 14px; 
- justify-content: center; 
- background-color: #EAECF0; 
- font-size: 18px; 
- color: #101828; 
- font-weight: 500; 
- margin-bottom: 15px; 
- } 
+.App .link-section #book__design {
+  padding-left: 44px;
+  padding-right: 44px;
+  min-height: 56px;
+  display: block;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 14px;
+  justify-content: center;
+  background-color: rgb(67, 230, 96);
+  font-size: 18px;
+  color: #101828;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.App .ltLogo {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.App footer {
+  padding: 15px 0px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-top: 1px solid #EAECF0;
+}
+
+.App footer img:first-child {
+  width: 130px;
+}
+
+.App footer span {
+  color: #667085;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.App footer img:last-child {
+  width: 200px;
+}
