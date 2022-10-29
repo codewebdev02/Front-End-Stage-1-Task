@@ -1,5 +1,80 @@
-.container{
-  border: 1px solid red;
-  max-width: 700px;
-  margin: auto;
-}
+.App.container { 
+ max-width: 788px; 
+ margin: auto; 
+ } 
+
+.App .AppHeader { 
+ display: flex; 
+ align-items: center; 
+ justify-content: flex-end; 
+ padding: 12px; 
+ } 
+
+.App .AppHeader button { 
+ width: 40px; 
+ height: 40px; 
+ display: flex; 
+ align-items: center; 
+ justify-content: center; 
+ border-radius: 50%; 
+ border: 1px solid rgb(226, 226, 226); 
+ background-color: rgb(240, 240, 240); 
+ color: rgb(0, 0, 0); 
+ cursor: pointer; 
+ } 
+
+.App .AppHeader button:hover { 
+ background-color: rgb(235, 235, 235); 
+ } 
+
+.App .profileDetail { 
+ display: flex; 
+ align-items: center; 
+ flex-direction: column; 
+ } 
+
+.App .profileDetail .profileImg { 
+ margin-bottom: 16px; 
+ } 
+
+.App .profileDetail #profile__img { 
+ border-radius: 50%; 
+ width: 96px; 
+ height: 96px; 
+ } 
+
+.App .profileDetail #twitter,
+.App .profileDetail #slack { 
+ margin: 0px; 
+ font-weight: 700; 
+ font-size: 20px; 
+ } 
+.App .profileDetail #slack { 
+ visibility: hidden; 
+ } 
+.App .link_section { 
+ max-width: 680px; 
+ margin: auto; 
+ /* margin-top: 32px;  */
+ } 
+
+.App .link_section #btn__zuri,
+.App .link_section #books,
+.App .link_section #book__python,
+.App .link_section #pitch,
+.App .link_section #book__design { 
+ padding-left: 44px; 
+ padding-right: 44px; 
+ min-height: 56px; 
+ display: block; 
+ max-width: 100%; 
+ display: flex; 
+ align-items: center; 
+ border-radius: 14px; 
+ justify-content: center; 
+ background-color: #EAECF0; 
+ font-size: 18px; 
+ color: #101828; 
+ font-weight: 500; 
+ margin-bottom: 15px; 
+ } 
