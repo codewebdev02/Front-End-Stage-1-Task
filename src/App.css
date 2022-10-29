@@ -3,14 +3,14 @@
  margin: auto; 
  } 
 
-.App .AppHeader { 
+.App .header { 
  display: flex; 
  align-items: center; 
  justify-content: flex-end; 
  padding: 12px; 
  } 
 
-.App .AppHeader button { 
+.App .header button { 
  width: 40px; 
  height: 40px; 
  display: flex; 
@@ -23,7 +23,7 @@
  cursor: pointer; 
  } 
 
-.App .AppHeader button:hover { 
+.App .header button:hover { 
  background-color: rgb(235, 235, 235); 
  } 
 
